@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -51,7 +50,7 @@ namespace SkillSwapClassLibrary
             // Add records to sports
             _dtWorkshops.Rows.Add(1, "Running for beginners", 1, "Learn the basics of running and how to improve your technique", new DateTime(2023, 6, 15, 9, 0, 0), "Building A");
             _dtWorkshops.Rows.Add(2, "E-sports tournament", 1, "Compete against others in a tournament of popular video games", new DateTime(2023, 6, 16, 13, 0, 0), "Building G");
-            _dtWorkshops.Rows.Add(3, "Indoor rowing", 1,"Try out indoor rowing machines and learn about proper form and technique", new DateTime(2023, 6, 17, 11, 0, 0), "Buildings B");
+            _dtWorkshops.Rows.Add(3, "Indoor rowing", 1, "Try out indoor rowing machines and learn about proper form and technique", new DateTime(2023, 6, 17, 11, 0, 0), "Buildings B");
 
             // Add records to music
             _dtWorkshops.Rows.Add(4, "DJ workshop", 2, "Learn how to mix tracks and use DJ equipment like a pro", new DateTime(2023, 6, 15, 14, 0, 0), "Building D");
